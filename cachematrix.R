@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 
-## makeCacheMatrix take a matrix object cache it in the memory. It also set the inverse matrix and store it in cache
+## makeCacheMatrix take a matrix object and cache it in the memory. It also set the inverse matrix and store it in cache
 ## One can get both the matrix and its inverse from the cache if the are set
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -40,3 +40,4 @@ cacheSolve <- function(x, ...) {
   x$setsolve(x_inv)
   x_inv	
 }
+
